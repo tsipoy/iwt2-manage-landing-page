@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Be Vietnam', sans-serif;
+    color: hsl(227, 12%, 61%);
+}
+
+h1, h2, h3 {
+    color: hsl(233, 12%, 13%);
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
