@@ -15,7 +15,8 @@ li {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 700; }
 
 img {
   max-width: 100%;
@@ -122,3 +123,28 @@ body > [type="checkbox"]:checked ~ main {
     flex-direction: row-reverse; }
   .manage_landing_page__header__image {
     padding-inline-start: 250px; } }
+
+.manage_landing_page__main_content__simplify {
+  background-color: #f51414;
+  text-align: center;
+  padding-block-end: 50px; }
+
+.manage_landing_page__main_content__simplify__header,
+.manage_landing_page__main_content__simplify__link {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px; }
+
+.manage_landing_page__main_content__simplify__header {
+  font-size: 44px;
+  color: white;
+  padding-block-end: 50px;
+  padding-block-start: 50px; }
+
+.manage_landing_page__main_content__simplify__link {
+  background-color: white;
+  color: #f51414;
+  padding-block-end: 10px;
+  padding-block-start: 10px;
+  padding-inline-end: 25px;
+  padding-inline-start: 25px;
+  border-radius: 30px; }
