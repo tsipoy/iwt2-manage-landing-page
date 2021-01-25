@@ -149,15 +149,30 @@ body > [type="checkbox"]:checked ~ main {
   padding-inline-start: 25px;
   border-radius: 30px; }
 
-.manage_landing_page__main_content__differences__article__wrapper,
+.manage_landing_page__main_content__differences {
+  font-size: 14px;
+  line-height: 1.7; }
+
 .manage_landing_page__main_content__differences__header {
   padding-inline-end: 20px;
   padding-inline-start: 20px; }
 
+.manage_landing_page__main_content__differences__header_title {
+  font-size: 28px; }
+
+.manage_landing_page__main_content__differences__article__wrapper {
+  padding-inline-start: 20px;
+  padding-block-end: 40px; }
+
+.manage_landing_page__main_content__differences__article {
+  padding-block-end: 32px; }
+
 .manage_landing_page__main_content__differences__article__title {
   background-color: #ffefeb;
   padding-block-end: 5px;
-  padding-block-start: 5px; }
+  padding-block-start: 5px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 20px; }
 
 .manage_landing_page__main_content__differences__article__button {
   background-color: #f51414;
