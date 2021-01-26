@@ -184,6 +184,16 @@ body > [type="checkbox"]:checked ~ main {
   margin-inline-end: 10px;
   border-radius: 20px; }
 
+@media (min-width: 600px) {
+  .manage_landing_page__main_content__differences {
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: baseline;
+    padding-block-start: 50px; }
+  .manage_landing_page__main_content__differences__article__wrapper {
+    padding-inline-start: 50px; } }
+
 .manage_landing_page__main_content__testimonials {
   padding-inline-end: 20px;
   padding-inline-start: 20px;
@@ -223,6 +233,18 @@ body > [type="checkbox"]:checked ~ main {
   padding-inline-end: 25px;
   padding-inline-start: 25px;
   border-radius: 30px; }
+
+@media (min-width: 600px) {
+  .manage_landing_page__main_content__testimonials {
+    padding-inline-end: 0;
+    padding-inline-start: 0; }
+  .manage_landing_page__main_content__testimonials__article_wrapper {
+    display: flex;
+    flex-direction: row; }
+  .manage_landing_page__main_content__testimonials__ariticle:nth-of-type(1),
+  .manage_landing_page__main_content__testimonials__ariticle:nth-of-type(2),
+  .manage_landing_page__main_content__testimonials__ariticle:nth-of-type(3) {
+    margin-inline-end: 32px; } }
 
 .manage_landing_page__footer {
   background-color: #1d1e25;
