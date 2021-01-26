@@ -223,3 +223,52 @@ body > [type="checkbox"]:checked ~ main {
   padding-inline-end: 25px;
   padding-inline-start: 25px;
   border-radius: 30px; }
+
+.manage_landing_page__footer {
+  background-color: #1d1e25;
+  padding-block-start: 32px;
+  padding-block-end: 48px; }
+
+.manage_landing_page__footer__form {
+  padding-inline-start: 19px; }
+
+.manage_landing_page__footer__form_input {
+  font-size: 16px;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-radius: 20px; }
+
+.manage_landing_page__footer__form_button {
+  background-color: #f51414;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-radius: 20px;
+  color: #fafafa;
+  text-transform: uppercase;
+  border: none; }
+
+.manage_landing_page__footer__menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 16px;
+  padding-inline-start: 50px;
+  padding-inline-end: 30px;
+  padding-block-end: 32px;
+  padding-block-start: 32px; }
+
+.manage_landing_page__footer__menu__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.manage_landing_page__footer__menu_list__link {
+  font-weight: 400;
+  color: #fafafa; }
+
+.manage_landing_page__footer__logo {
+  text-align: center;
+  padding-block-start: 32px; }
