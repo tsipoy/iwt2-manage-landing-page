@@ -286,7 +286,7 @@ body > [type="checkbox"]:checked ~ main {
 .manage_landing_page__footer__menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 16px;
+  grid-gap: 16px;
   padding-inline-start: 50px;
   padding-inline-end: 30px;
   padding-block-end: 32px;
