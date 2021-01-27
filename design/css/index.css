@@ -149,6 +149,16 @@ body > [type="checkbox"]:checked ~ main {
   padding-inline-start: 25px;
   border-radius: 30px; }
 
+@media (min-width: 600px) {
+  .manage_landing_page__main_content__simplify {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  .manage_landing_page__main_content__simplify__header {
+    max-width: 500px; } }
+
 .manage_landing_page__main_content__differences {
   font-size: 14px;
   line-height: 1.7; }
@@ -294,3 +304,16 @@ body > [type="checkbox"]:checked ~ main {
 .manage_landing_page__footer__logo {
   text-align: center;
   padding-block-start: 32px; }
+
+@media (min-width: 600px) {
+  .manage_landing_page__footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: baseline; }
+  .manage_landing_page__footer__menu__wrapper {
+    display: flex;
+    flex-direction: column; }
+  .manage_landing_page__footer__logo {
+    order: -1;
+    padding-block-end: 73px; } }

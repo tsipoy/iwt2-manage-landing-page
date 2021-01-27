@@ -28,3 +28,17 @@
     padding-inline-start: 25px;
     border-radius: 30px;
 }
+
+@media(min-width: 600px) {
+    .manage_landing_page__main_content__simplify {
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .manage_landing_page__main_content__simplify__header {
+        max-width: 500px;
+    }
+}
