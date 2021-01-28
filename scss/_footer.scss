@@ -20,7 +20,7 @@
 }
 
 .manage_landing_page__footer__form_button {
-    background-color: rgb(245, 20, 20);
+    background-color:  hsl(12, 88%, 59%);
     padding-inline-end: 20px;
     padding-inline-start: 20px;
     padding-block-start: 10px;
@@ -31,10 +31,15 @@
     border: none;
 }
 
+.manage_landing_page__footer__form_button:hover {
+    background-color:  hsl(12, 80%, 72%);
+    transition: .3s;
+}
+
 .manage_landing_page__footer__menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
+    row-gap: 16px;
     padding-inline-start: 50px;
     padding-inline-end: 30px;
     padding-block-end: 32px;
@@ -57,6 +62,11 @@
     padding-block-start: 32px;
 }
 
+.manage_landing_page__footer__menu_list__link:hover {
+    color: hsl(12, 88%, 59%);
+    transition: .3s;
+}
+
 @media(min-width: 600px) {
     .manage_landing_page__footer {
         display: flex;
@@ -68,6 +78,10 @@
     .manage_landing_page__footer__menu__wrapper {
         display: flex;
         flex-direction: column;
+    }
+
+    .manage_landing_page__footer__list__icon:hover {
+        fill:  hsl(12, 88%, 59%);
     }
 
     .manage_landing_page__footer__logo {

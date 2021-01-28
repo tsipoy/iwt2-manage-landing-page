@@ -1,5 +1,4 @@
 .manage_landing_page__main_content__differences {
-    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -32,7 +31,7 @@
 
 
 .manage_landing_page__main_content__differences__article__button {
-    background-color: rgb(245, 20, 20);
+    background-color:  hsl(12, 88%, 59%);
     color: rgb(255, 255, 255);
     padding-block-end: 5px;
     padding-block-start: 5px;
@@ -52,6 +51,11 @@
     }
 
     .manage_landing_page__main_content__differences__article__wrapper {
-        padding-inline-start: 50px;
+        padding-inline-start: 141px;
+    }
+
+    .manage_landing_page__main_content__differences__header {
+        max-width: 368px;
+        padding-inline-start: 0; 
     }
 }

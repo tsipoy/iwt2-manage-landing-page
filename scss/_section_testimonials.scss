@@ -36,7 +36,7 @@
 }
 
 .manage_landing_page__main_content__testimonials__link {
-    background-color: #f51414;
+    background-color:  hsl(12, 88%, 59%);
     color: white;
     padding-block-end: 10px;
     padding-block-start: 10px;
@@ -45,10 +45,16 @@
     border-radius: 30px;
 }
 
+.manage_landing_page__main_content__testimonials__link:hover {
+    box-shadow:  0 2px 5px  hsl(12, 88%, 59%);
+    transition: .3s;
+}
+
 @media(min-width: 600px) {
     .manage_landing_page__main_content__testimonials {
         padding-inline-end: 0;
         padding-inline-start: 0;
+        padding-block-end: 100px;
     }
 
     .manage_landing_page__main_content__testimonials__article_wrapper {

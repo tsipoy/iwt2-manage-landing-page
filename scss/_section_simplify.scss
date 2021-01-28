@@ -1,5 +1,5 @@
 .manage_landing_page__main_content__simplify {
-    background-color: rgb(245, 20, 20);
+    background-color:  hsl(12, 88%, 59%);
     text-align: center;
     padding-block-end: 50px;
 }
@@ -21,12 +21,17 @@
 
 .manage_landing_page__main_content__simplify__link {
     background-color: rgb(255, 255, 255);
-    color: rgb(245, 20, 20);
+    color:  hsl(12, 88%, 59%);
     padding-block-end: 10px;
     padding-block-start: 10px;
     padding-inline-end: 25px;
     padding-inline-start: 25px;
     border-radius: 30px;
+}
+
+.manage_landing_page__main_content__simplify__link:hover {
+    box-shadow:  0 2px 5px hsl(227, 12%, 61%);
+    transition: .3s;
 }
 
 @media(min-width: 600px) {
@@ -39,6 +44,7 @@
     }
 
     .manage_landing_page__main_content__simplify__header {
-        max-width: 500px;
+        padding-inline-start: 0;
+        max-width: 632px;
     }
 }
