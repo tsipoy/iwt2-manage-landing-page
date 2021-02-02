@@ -26,6 +26,9 @@ button {
   cursor: pointer; }
 
 .manage_landing_page__header {
+  background-image: url("../images/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
   padding-inline-start: 20px;
   padding-inline-end: 20px;
   padding-block-start: 48px; }
