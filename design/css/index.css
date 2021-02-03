@@ -26,9 +26,13 @@ button {
   cursor: pointer; }
 
 .manage_landing_page__header {
-  background-image: url("../images/bg-simplify-section-desktop.svg");
+  background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 105;
+  background-position-x: 60px;
+  background-position-y: -45px; }
+
+.manage_landing_page__header {
   padding-inline-start: 20px;
   padding-inline-end: 20px;
   padding-block-start: 48px; }
