@@ -127,13 +127,12 @@ body > [type="checkbox"]:checked ~ main {
   z-index: 1; }
 
 @media (min-width: 600px) {
-  .manage_landing_page__header {
-    margin: auto;
-    max-width: 1100px; }
+  .manage_landing_page__header__logo {
+    padding-inline-start: 129px; }
   .manage_landing_page__header {
     background-size: 60%;
-    background-position-x: 583px;
-    background-position-y: -91px; }
+    background-position-x: 647px;
+    background-position-y: -135px; }
   .manage_landing__page__homepage {
     display: none; }
   .manage_landing_page__header__navigation {
@@ -151,16 +150,19 @@ body > [type="checkbox"]:checked ~ main {
   .manage_landing_page__header__navigation__lists {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: baseline;
-    padding-inline-start: 200px;
+    padding-inline-start: 300px;
     margin-block-start: -55px; }
+  .manage_landing_page__header__navigation__list {
+    padding-inline-end: 84px; }
   .manage_landing_page__header__navigation__list__link {
     display: block;
     margin-inline-end: -43px; }
   .manage_landing_page__header__section {
     display: flex;
-    flex-direction: row-reverse; }
+    flex-direction: row-reverse;
+    margin: auto;
+    max-width: 1100px; }
   .manage_landing_page__header__image {
     padding-inline-start: 144px; }
   .manage_landing_page__header__articles {
@@ -303,6 +305,9 @@ body > [type="checkbox"]:checked ~ main {
 
 @media (min-width: 600px) {
   .manage_landing_page__main_content__testimonials {
+    background-image: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 88%;
     padding-inline-end: 0;
     padding-inline-start: 0;
     padding-block-end: 100px; }
